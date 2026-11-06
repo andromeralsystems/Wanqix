@@ -1,0 +1,13 @@
+<Solution>
+<Project Path="src/Wanqix.Core/Wanqix.Core.fsproj" />
+<Project Path="src/Wanqix.Security/Wanqix.Security.fsproj" />
+<Project Path="src/Wanqix.Memory/Wanqix.Memory.fsproj" />
+<Project Path="src/Wanqix.Processes/Wanqix.Processes.fsproj" />
+<Project Path="src/Wanqix.Storage/Wanqix.Storage.fsproj" />
+<Project Path="src/Wanqix.Services/Wanqix.Services.fsproj" />
+<Project Path="src/Wanqix.KSL/Wanqix.KSL.fsproj" />
+<Project Path="src/Wanqix.Terminal/Wanqix.Terminal.fsproj" />
+<Project Path="src/Wanqix.Host.Windows/Wanqix.Host.Windows.fsproj" />
+<Project Path="src/Wanqix.Console/Wanqix.Console.fsproj" />
+<Project Path="tests/Wanqix.Tests/Wanqix.Tests.fsproj" />
+</Solution>

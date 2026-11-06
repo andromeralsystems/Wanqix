@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup></PropertyGroup>
+<ItemGroup></ItemGroup>
+<ItemGroup><Compile Include="Types.fs" /></ItemGroup>
+</Project>

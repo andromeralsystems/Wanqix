@@ -1,0 +1,16 @@
+# Misma IR y permisos que la sintaxis rápida; sin selección de anillos.
+@process :: spawn {
+    identity: "structured.worker";
+    priority: 4;
+    memory.limit: 16MiB;
+    steps: 20;
+}
+@memory :: inspect {
+    region: all;
+    format: detailed;
+}
+@filesystem :: write {
+    path: "/temp/structured.txt";
+    content: "KSL estructurado funcional";
+}
+@filesystem :: read { path: "/temp/structured.txt"; }

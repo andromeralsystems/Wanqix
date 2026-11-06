@@ -1,0 +1,16 @@
+# Ejecutar con --admin --deterministic --script examples/scripts/demo.ksl
+sys.info
+usr.info
+proc.spawn worker.alpha --priority 4 --memory 16MiB --steps 25
+mem.alloc 101 1MiB
+mem.map
+proc.pause 101
+sys.tick 2
+proc.resume 101
+sys.tick 5
+proc | select pid name state runtime
+mem.map
+fs.write /temp/wanqix-note.txt "Trabajo terminado y memoria liberada."
+svc | select id state ticks > /temp/services.tsv
+fs.read /temp/wanqix-note.txt
+sys.info

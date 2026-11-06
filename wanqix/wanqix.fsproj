@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><AssemblyName>Wanqix</AssemblyName></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../src/Wanqix.Services/Wanqix.Services.fsproj" />
+    <ProjectReference Include="../src/Wanqix.Terminal/Wanqix.Terminal.fsproj" />
+    <ProjectReference Include="../src/Wanqix.Host.Windows/Wanqix.Host.Windows.fsproj" />
+  </ItemGroup>
+  <ItemGroup><Compile Include="../src/Wanqix.Console/Program.fs" Link="Program.fs" /></ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+**/bin/
+**/obj/
+.vs/
+data/
+publish/
+*.user
+TestResults/
+tests/manual-smoke-data/
+.env
+.env.*
+!.env.example
+state.v*.json
+instance.lock
+*.pfx
+*.key

@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup></PropertyGroup>
+<ItemGroup><ProjectReference Include="../Wanqix.Core/Wanqix.Core.fsproj" /><ProjectReference Include="../Wanqix.Security/Wanqix.Security.fsproj" /><ProjectReference Include="../Wanqix.Memory/Wanqix.Memory.fsproj" /><ProjectReference Include="../Wanqix.Processes/Wanqix.Processes.fsproj" /><ProjectReference Include="../Wanqix.Storage/Wanqix.Storage.fsproj" /></ItemGroup>
+<ItemGroup><Compile Include="Services.fs" /><Compile Include="Kernel.fs" /></ItemGroup>
+</Project>

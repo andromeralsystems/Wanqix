@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup></PropertyGroup>
+<ItemGroup><ProjectReference Include="../Wanqix.Core/Wanqix.Core.fsproj" /><ProjectReference Include="../Wanqix.KSL/Wanqix.KSL.fsproj" /></ItemGroup>
+<ItemGroup><Compile Include="Terminal.fs" /></ItemGroup>
+</Project>
